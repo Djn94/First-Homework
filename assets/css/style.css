@@ -1,0 +1,74 @@
+body{
+    background: #4aaaa5;
+    text-align:center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paraone, .paratwo, .parathree{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+}
+h1{border-bottom: 5px solid #cccccc;
+    background-color:white;
+}
+.hi{
+    background-color:#4aaaa5;
+    color:white;
+    text-align: left;
+    margin-left:200px;
+    margin-right:75%;
+    padding-top:5px;
+    padding-bottom:25px;
+    }
+
+.toplinks{
+    float:right;
+}
+
+#pagelink{
+    color:slategray;
+    text-decoration: none;
+    text-size-adjust: 10%
+}
+
+.aboutme{
+        width: 300px;
+        border-bottom: 5px solid green;
+        padding: 25px;
+        margin: 25px;
+      }
+.mainbox{
+        width: 960px;
+        border:10px solid #dddddd;
+        padding:45px;
+        margin:100px;
+        background-color: #ffffff;
+}
+.welhelo{
+    margin-left:10px;
+}
+.bioimage{
+    float: left;
+}
+
+{
+    background-color:slateblue;
+    width: 15%;
+    color: white;
+    margin:10px;
+    padding:10px;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5
+}
+.footer,
+.push{
+    height: 50px;
+}
