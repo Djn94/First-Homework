@@ -22,7 +22,7 @@ h1{border-bottom: 5px solid #cccccc;
     background-color:#4aaaa5;
     color:white;
     width: 250px;
-    margin-left:25%;
+    margin-left:17%;
     padding-top:15px;
     padding-bottom:25px;
     padding-left:20px;
@@ -35,7 +35,7 @@ h1{border-bottom: 5px solid #cccccc;
 .toplinks{
     float:right;
     margin-top:-50px;
-    margin-right:20%;
+    margin-right:16%;
 }
 
 #pagelink{
@@ -56,27 +56,27 @@ h3{
         width: 960px;
         border:10px solid #dddddd;
         padding:45px;
-        margin-left: 25%;
+        margin-left: 17%;
         margin-right:25%;
         margin-top:100px;
         margin-bottom:10%;
         background-color: #ffffff;
 }
 .mainboxinp{
-    width: 700px;
+    width: 960px;
     border:10px solid #dddddd;
     padding:45px;
-    margin-left: 25%;
+    margin-left: 17%;
     margin-right:25%;
     margin-top:100px;
     margin-bottom:10%;
     background-color: #ffffff;
 }
 .mainboxport{
-    width: 900px;
+    width: 960px;
     border:10px solid #dddddd;
     padding:45px;
-    margin-left: 25%;
+    margin-left: 17%;
     margin-right:25%;
     margin-top:100px;
     margin-bottom:10%;
@@ -115,13 +115,39 @@ input[type=text], select{
     text-align: left;
 }
 .dogpics{
-    align-content: center;
-    margin-left:240px;
-    float: left;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px auto 0 auto;
+    justify-content: space-around;
 }
-.middledogpics{
-    clear: both;
-    }
+.lineone{
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 30%;
+    padding:20x;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.linetwo{
+    flex:1;
+    flex-direction: column;
+    flex-basis: 30%;
+    margin: 20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.linethree{
+    flex:1;
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+
 
 
 .wrapper{
